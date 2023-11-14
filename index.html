@@ -1,17 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mingyang Zhao Midterm</title>
-    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Midterm</title>
 </head>
+
 <body>
-   <div class="container-flex">
-    <div class="box">Home</div>
-    <div class="box">Product</div>
-    <div class="box">Contact</div>
-    
-   </div> 
+    <section class="page">
+        <!-- home -->
+        <section class="home" id="home">
+            <nav>
+                <img src="./static/2.png" alt="logo" />
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <img src="./static/1.jpg" alt="logo" />
+                <h5 class="title">Pop cakes for every mood</h5>
+            </main>
+        </section>
+        <!-- Product -->
+        <section class="product" id="product">
+            <nav>
+                <img src="./static/2.png" alt="popcakes" />
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <h5 class="title">All the Choices We have</h5>
+                <div class="content">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </main>
+        </section>
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <form action="">
+                <label for="username">Name</label><br />
+                <input class="username" type="text" name="Name" /><br />
+                <label for="email">Email</label><br />
+                <input class="email" type="email" name="Email" /><br />
+                
+                <input class="submit" type="submit" value="submit" />
+            </form>
+        </section>
+    </section>
 </body>
+<footer>
+    ©MZ2023
+</footer>
+
 </html>

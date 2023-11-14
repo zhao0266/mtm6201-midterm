@@ -1,8 +1,42 @@
-.container-flex{
-    border: 1px solid black;
-    dixplay;flex;
-
+*{
+    background-color: #BEDBC2;
+    text-align: center;
+    text-decoration: none;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    color: black;
 }
-.box{
+.box{ 
+    border-bottom:1px solid black;
+    padding: 1em;
+    background-color: #C0E4C8;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.box:nth-child(3){
+    border-bottom: 0;
+}
+
+.container-flex{
+    
+  
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    width: 30%;
     
 }
+.container-grid{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+}
+.grid-item2{
+    align-items: end;
+}
+.textbox{
+    border-bottom:1px solid black;
+    padding: 1em;
+    background-color: #C0E4C8;
+}
+
